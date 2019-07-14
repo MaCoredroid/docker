@@ -107,7 +107,7 @@ services:
     environment:
       SPRING_APPLICATION_JSON: '{"spring": {"cloud": {"config": {"uri": "http://config-service:8088"}}}}'
     ports:
-      - "8060:8060"
+      - "30201:30201"
     networks:
       - spring-cloud-network
 
